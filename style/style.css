@@ -1,0 +1,287 @@
+:root {
+  --main-bg: #f7f7f7;
+  --primary: #074eb9;
+  --secondary: #f4a710;
+  --gray: #7c7c7c;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--main-bg);
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.phone:hover {
+  color: var(--secondary);
+}
+
+/* Hero */
+#hero {
+  background-color: var(--main-bg);
+  padding-top: 4%;
+}
+
+#hero .title {
+  color: var(--primary);
+}
+
+#hero h5 {
+  color: var(--gray);
+}
+
+#hero .price {
+  color: var(--secondary);
+}
+
+#hero button {
+  background-color: var(--secondary);
+}
+
+#hero button:hover {
+  background-color: transparent;
+  border: 1px solid var(--secondary);
+  color: var(--secondary) !important;
+}
+
+/* Two */
+#two {
+  margin: 7% 0;
+}
+
+#two p {
+  color: var(--gray);
+}
+
+#two i {
+  color: var(--primary);
+}
+
+/* Three */
+#three {
+  background-color: var(--main-bg);
+  padding: 7% 0;
+}
+
+#three button {
+  background-color: var(--primary);
+  color: var(--main-bg);
+}
+
+#three button:hover {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+#three .featured button {
+  background-color: var(--secondary);
+}
+
+#three .featured button:hover {
+  background-color: transparent;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+#three .price,
+#three .featured {
+  border-right: 1px solid #d3d3d3;
+}
+
+#three .list p {
+  color: var(--gray);
+}
+
+#three .list i {
+  color: var(--primary);
+  font-size: 12px;
+}
+
+#three h6 {
+  color: var(--primary);
+}
+
+/* Four */
+.accordion {
+  margin: 0 12%;
+}
+
+#collapseBtn[aria-expanded="true"],
+#collapseBtnTwo[aria-expanded="true"],
+#collapseBtnThree[aria-expanded="true"] {
+  background-color: white;
+  color: var(--primary);
+}
+
+#collapseBtn[aria-expanded="false"],
+#collapseBtnTwo[aria-expanded="false"],
+#collapseBtnThree[aria-expanded="false"] {
+  background-color: var(--main-bg);
+  color: black;
+}
+
+.accordion .btn {
+  font-size: 24px;
+}
+
+/* Five */
+#five {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/man-using-tablet.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 10% 0;
+}
+
+#five button {
+  color: var(--main-bg);
+  border: 1px solid var(--main-bg);
+}
+
+#five button:hover {
+  background-color: var(--main-bg);
+  color: var(--gray);
+}
+
+#five .text {
+  color: var(--main-bg);
+}
+
+/* Six */
+#six {
+  background-color: var(--main-bg);
+  padding: 8% 0;
+}
+
+#six img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+#six span {
+  color: white;
+  font-size: 32px;
+  color: var(--primary);
+}
+
+#six .person p {
+  font-size: 12px;
+  margin-top: -5px;
+  color: var(--gray);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+/* Seven */
+#seven {
+  padding: 6% 0;
+}
+
+#seven .card-body {
+  background-color: var(--main-bg);
+}
+
+#seven .card-body p {
+  color: var(--gray);
+  font-size: 12px;
+}
+
+#seven .card-title {
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+#seven .badge {
+  background-color: var(--secondary);
+}
+
+/* Eight */
+#eight {
+  background-color: var(--main-bg);
+}
+
+#eight button {
+  background-color: var(--secondary);
+}
+
+#eight p {
+  color: var(--gray);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary);
+  color: #bfd1ea;
+}
+
+footer input {
+  width: 200px;
+  height: 50px;
+  opacity: 50%;
+}
+
+footer input::placeholder {
+  color: white;
+}
+
+footer .btn {
+  margin-left: -80px;
+  height: 40px;
+  width: 50px;
+  color: var(--main-bg);
+  z-index: 2;
+  border-radius: 0;
+  border-left: 1px solid white;
+  margin-top: 5px;
+}
+
+footer .btn:hover {
+  margin-left: -80px;
+  height: 40px;
+  width: 50px;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 0;
+  border-left: 1px solid white;
+  margin-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color:var(--main-bg) !important;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color:white;
+}
